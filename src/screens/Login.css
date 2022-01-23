@@ -1,0 +1,42 @@
+#content{
+    margin-top:10px;
+    width: 32%;
+    border-radius: 100px;
+}
+#wrapper{
+    background-color: #f8f9fd;
+    height: 100vh;      
+    display: flex;
+    justify-content: center;
+}
+#image-wrapper-signup{
+    height: 200px;
+    background-image: url("https://cutewallpaper.org/21/google-pixel-default-wallpaper/CyanogenMod-13-Default-Stock-Wallpaper-CM-13-Wallpaper-Full-HD.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#image-wrapper{
+    height: 200px;
+    background-image: url("https://wallpaperaccess.com/full/782778.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#google-icon{
+    width:20%;
+    margin-right:10px;
+}
+#google-button{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#google-button:hover{
+    background-color: #f8f9fd;
+}
+
+@media only screen and (max-width:768px) {
+    #content{
+        width:90%;
+    }
+}
